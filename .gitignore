@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and models
+*/checkpoints/
+*.pth
+
+# Data files
+real_data/raw_data/
+simulation_data/
+
+# Generated results
+real_data/results/
+*.png
+*.gif
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# FAISS index
+*/faiss_index/
+
+# GPT2 model files
+simulation_agent/gpt2/
